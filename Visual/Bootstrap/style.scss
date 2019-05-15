@@ -1,6 +1,27 @@
+$chapterBG:#559;
+$chapterColor:#ff4;
+body {
+  background: beige;
+ }
+ h3
+ {
+     color:$chapterColor;
+ }
+    div
+        {
+            
+            background-color: $chapterBG;
+            height:5rem;
+            margin: 5rem;
+        }
+        main
+        {
+            background: red;
+        }
 
-
-body
-{
-    background:beige;
-}
+    .newChapter
+        {
+            position: relative;
+            background-color: $chapterBG;
+            padding: 1rem;
+        }

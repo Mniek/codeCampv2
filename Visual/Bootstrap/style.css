@@ -1,4 +1,25 @@
 body {
   background: beige; }
 
+h3 {
+  color: #ff4; }
+img
+{
+  width:10%;
+}
+div {
+  background-color: #559;
+  height: 5rem;
+  margin: 5rem;
+ }
+
+main {
+  background: red; 
+}
+
+.newChapter {
+  position: relative;
+  background-color: #559;
+  padding: 1rem; }
+
 /*# sourceMappingURL=style.css.map */
