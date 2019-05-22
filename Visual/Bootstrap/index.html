@@ -3,53 +3,133 @@
     <meta charset="utf-8">
    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
-        <aside class="newChapter">
+        <section class="newChapter">
             <h3 class = "text-center">Buttons</h3>
             
-                <div>
-                    <img src="images/smiley.png">
+                <div class = "example">
+                    <img  class = "img-responsive" src="images/smiley.png">
                     <mark>img-responsive</mark> is a class in bootstrap which allows to handle resolution problems
-                </div>
-                <div>
+                    aside    </div>
+                <div class = "example text-center">
                     <mark>text-center</mark> is a class which allows to center text 
                 </div>
-                <div>
+                <div class = "example">
                     <p><mark>btn-block</mark> class allows to use the whole avilable width by button </p>
                     <button class="btn btn-default btn-block">divke</button>
                 </div>
 
-                <div>   
+                <div class = "example">   
                     <p><mark>btn-primary</mark> class allows to highlight the first of a type button</p>
                     <button class="btn btn-primary btn-block">divke</button>
                 </div>
                     
-                <div>
+                <div class = "example">
                     <p><mark>btn-info</mark> a class which is dedicated for info buttons</p>
                     <button class="btn btn-block btn-info">Info</button>
                 </div>
-                <div>
+                <div class = "example">
                     <p><mark>btn-danger</mark> a class which tells user that there is destructive or important function</p>
                     <button class="btn btn-block btn-danger">Danger</button>
                 </div>
 
 
-  <div class="row">
-        <div class = "col-xs-4"><button class="btn btn-block btn-primary">Like</button>
-        </div>
-        <div class = "col-xs-4">
-        <button class="btn btn-block btn-info">Info</button>
-        </div>
-        <div class = "col-xs-4">
-        <button class="btn btn-block btn-danger">Delete</button>
-        </div>
-            
+
                 
             
-        </aside>
+    </section>
+    <section class="newChapter " >
+        <h3 class = "text-center">Grid system & resolution</h3>
+
+        <div class="row example">
+            <p> Bootstrap is a grid system, which tell us that there is possibility to "catch & place"
+                everything on a grid, for start, we have 12-places net, to use it, we have to create a "holder" with a class
+                <mark>"row"</mark> and inside things to place, with correct name, for example <mark>"col-md-4"</mark> where 'md' stands for "medium" and 4 - the places which it takes from 12 
+            </p>
+            <div class = "col-xs-4"><button class="btn  btn-primary">Like</button>
+            </div>
+            <div class = "col-xs-4">
+            <button cinfolass="btn btn-info">Info</button>
+            </div>
+            <div class = "col-xs-4">
+            <button class="btn  btn-danger">Delete</button>
+            </div>
+        </div>
+        <div class=" example">
+            <p> <mark>
+                ...-primary 
+                <br/>
+                 ...-danger
+                <br/>
+                ... -info 
+            </mark> <br/>is a bootstrap class which allows to handle with element without problem of creating extra classes or code.</p>          
+            <p class="text-primary"> I am primary text</p>
+            <button class="btn-primary"> Im primary button</button>
+        </div>
+        <div class = 'example'>
+            <div class="row">
+                <div class="col-xs-8"><h2>I am a heading with image as logo</h2></div>
+                <div class="col-xs-4"><img src="images/smiley.png" alt="SMILEY"></div>
+            </div>
+
+        </div>
+        <div class="example">
+            <p>Font awesome in html, we can now use <mark> < i > marker </mark> is now
+            used on inputing icons with <mark>.svg extension</mark> </p>
+            <p><span class="text-danger">We have to add font awesome stylesheet </span>< link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous" ></p>
+            <i class="fa fa-thumbs-up"></i>
+            <i class="fa fa-info-circle"></i>
+            <p ><a class="text-danger" href = "https://fontawesome.com/icons">Font awesome site</a></p>
+        </div>
+        <div class="example">
+             <p>A form with a class <mark>form-control</mark> on a text input, which changes it into block element.
+             </p>
+             <p>Whats more, some extra classes were added like paper plane, primary button and etc.</p>
+            <form action="" >
+                
+                <input type="text" class="form-control" placeholder="we all have form-control class"/>
+                <div class="row">
+                    
+                    <div class="col-xs-6">
+                        <label><input type="radio" name="indoor-outdoor"> One</label>
+                    </div>
+                    <div class="col-xs-6">
+                        <label><input type="radio" name="indoor-outdoor"> Two</label>
+                    </div>
+                </div>
+                <button type="submit"  class="btn btn-primary"> Submit<i class="fa fa-paper-plane "></i></button>
+            </form>
+
+        </div>
+    </section>
+    <section class="newChapter">
+        <h3 class= " text-center"> Bootstrap & JQuery </h3>
+        <div class="example ">
+            <p><mark>container-fluid</mark> enables the content to be mobile friendly with responsivity</p>
+                <div class="container-fluid">
+                        <h3 class="text-primary text-center">jQuery Playground</h3>
+                        <button class="btn well">I have well class </button>
+                        <button class="btn ">I dont have it </button>
+                </div>
+        </div>
+        <div class="example">
+            <div class="row ">
+                <div class="col-xs-6 well">
+                    <div class="well"></div>
+                </div>
+                <div class="col-xs-6 well">
+                    <div class="well"></div>
+                </div>
+            </div>
+            
+            <p><mark>well</mark> class allows things look like they ar "deeper", it works especially on conteiners like divs . </p>
+
+        </div>
+    </section>
     </main>
 
 

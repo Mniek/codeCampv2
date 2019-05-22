@@ -19,7 +19,9 @@ article {
   height: 30%;
   background-color: #996633;
   margin-top: 1%;
-  position: relative; }
+  position: relative;
+  
+ }
 
 .descEx {
   position: absolute;
@@ -31,7 +33,7 @@ article {
   overflow: auto; }
 
 .codeEx {
-  background-color: #a06de9;
+  background-color: #a06de9;;
   position: absolute;
   width: 50%;
   height: 100%;
@@ -56,21 +58,24 @@ article {
 .imagesDesc {
   background: #666; }
 
-table, td, th {
-  border: 1px solid #040308;
-  padding: 1rem; }
-
-table {
-  margin: 1rem; }
-
-.wrong {
-  color: #A50000;
-  background-color: #550000; }
-
-.good {
-  background-color: #008400;
-  color: #004400; }
+table, td,th
+{
+    border:1px solid #040308;
+    padding: 1rem
+}
+table
+{
+    margin: 1rem;
+}
+.wrong
+{
+	color:#A50000;
+	background-color:#550000;	
+}
+.good
+{
+background-color:#008400;
+color:#004400;
+}
 
 /*# sourceMappingURL=style.css.map */
-
-/*# sourceMappingURL=mainStyle.css.map */

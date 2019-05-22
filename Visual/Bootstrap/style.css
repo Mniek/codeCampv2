@@ -1,25 +1,35 @@
 body {
-  background: beige; }
+  background: beige;
+  color: #bbc27e;
+  font-size: 2em; }
 
 h3 {
-  color: #ff4; }
-img
-{
-  width:10%;
-}
+  color: rgba(191, 129, 49, 0.973); }
+
+mark {
+  border-radius: 1rem; }
+
+img {
+  width: 10rem; }
+
 div {
-  background-color: #559;
-  height: 5rem;
-  margin: 5rem;
- }
+  min-height: 8rem;
+  padding: 1rem;
+  border-radius: 1rem; }
 
 main {
-  background: red; 
-}
+  background: red; }
 
 .newChapter {
   position: relative;
-  background-color: #559;
+  background-color: #3f3f63;
   padding: 1rem; }
+
+.example {
+  background-color: rgba(248, 203, 144, 0.26);
+  margin: 5rem; }
+
+.well {
+  background-color: #555; }
 
 /*# sourceMappingURL=style.css.map */

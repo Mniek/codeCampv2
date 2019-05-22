@@ -1,18 +1,32 @@
-$chapterBG:#559;
-$chapterColor:#ff4;
+$chapterBG:rgb(63, 63, 99);
+$exampleBG: rgba(248, 203, 144, 0.26);
+$chapterColor:hsla(34, 59%, 47%, 0.973);
+$chapterDescColor: rgb(187, 194, 126);
 body {
   background: beige;
+  color:$chapterDescColor;
+  font-size: 2em;
  }
  h3
  {
      color:$chapterColor;
  }
+ mark
+ {
+     border-radius: 1rem;
+ }
+ img
+ {
+     width:10rem;
+ }
     div
         {
             
-            background-color: $chapterBG;
-            height:5rem;
-            margin: 5rem;
+           //background-color: $chapterBG;
+           min-height:8rem;
+           padding:1rem;
+           border-radius: 1rem;
+            
         }
         main
         {
@@ -25,3 +39,12 @@ body {
             background-color: $chapterBG;
             padding: 1rem;
         }
+.example
+{
+    background-color:$exampleBG;
+    margin:5rem;    
+}
+.well
+{
+    background-color: #555; 
+}
